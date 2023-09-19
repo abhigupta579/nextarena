@@ -1,0 +1,40 @@
+.section.auth {
+    background: lightpink;
+    padding: 48px 0px;
+    /* opacity: 80%; */
+}
+.col-md-5.mt-4.colAuth {
+    text-align: center;
+}
+.colAuth h1 {
+    font-family: auto;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.colAuth label {
+    margin: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.colAuth input {
+    padding: 5px;
+    border-radius: 12px;
+    border: none;
+    margin-bottom: 18px;
+    width: 250px;
+}
+.colAuth button {
+    color: white;
+    background: blue;
+    padding: 4px 20px;
+    border-radius: 12px;
+    border: navajowhite;
+    font-size: 20px;
+}
+button.logoutBtn.bg-primary.text-white.rounded-pill {
+    padding: 5px 25px;
+    border: navajowhite;
+    font-size: 20px;
+}

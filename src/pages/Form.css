@@ -1,0 +1,84 @@
+.section.formAdd {
+    padding: 5px 0px;
+    background: black;
+    text-align: center;
+}
+.formAdd h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.formAdd input {
+    margin: 10px;
+    height: 70px;
+    width: 538px;
+    border: 1px solid whitesmoke;
+    background: darkred;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+textarea#company {
+    margin: 12px 0px;
+    background: darkred;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 16px;
+    color: white !important;
+    /* max-width: 545px; */
+    width: 100%;
+}
+button.bg-danger.border-rounded-pill.submitBtn.btn.btn-primary {
+    text-align: initial !important;
+    /* display: inline-block; */
+    margin-top: 5px;
+    border: navajowhite;
+    padding: 16px;
+    font-size: 20px;
+    background-color: white!important;
+    color: darkred;
+    font-weight: 700;
+}
+
+
+
+.colorDark-change-5x {
+	-webkit-animation: color-change-5x 8s linear infinite alternate both;
+	        animation: color-change-5x 8s linear infinite alternate both;
+}
+
+  @keyframes color-change-5x {
+    0% {
+      background: blue;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: darkslategray;
+    }
+    75% {
+      background: darkcyan;
+    }
+    100% {
+      background: darkorchid;
+    }
+  }
+
+
+@media screen and (max-width:768px) {
+  .formAdd input{
+    max-width: 95%;
+    
+  }
+  textarea#company{
+    max-width: 100%;
+  }   
+ .formAdd h1{
+    max-width: 100%;
+ }
+}

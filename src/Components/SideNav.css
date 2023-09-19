@@ -1,0 +1,54 @@
+
+nav.bg-body.sideNav.mb-3.navbar.navbar-light {
+    background: transparent !important;
+    /* color: white !important; */
+}
+button.navbar-toggler.collapsed {
+    /* color: white !important; */
+    background: whitesmoke;
+}
+
+.offcanvas-header {
+    background: darkred;
+}
+.sideNavBody {
+    background-color: darkred !important;
+}
+
+.navLink{
+    width: 330px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    height: 130px;
+    border: 1px solid grey;
+    padding: 35px 0px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:linear;
+}
+
+.navLink h3{
+    font-size: 15px;
+}
+.navLink h2{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: serif;
+}
+.navLink:hover{
+     /* width: 360px;
+    height: 140px; */
+    background-color:darkred;
+    color: white;
+    align-self: center;
+    padding: 40px 0px;
+    transform: scale(1.1,1.2);
+}
+
+.sideNavBody{
+    background-color: transparent;
+}
