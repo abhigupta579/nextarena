@@ -26,7 +26,9 @@ function SideNav() {
               </Offcanvas.Header>
               <Offcanvas.Body className='sideNavBody'>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Link href={'/'} className='navLink'>
+                    <Link href={'/Login'} className='navLink'>
+                    <h2>ACCOUNT</h2></Link>
+                    <Link href={'/'} className='navLink'>
                     <h3>001</h3>
                     <h2>THE GAME</h2></Link>
                     <Link href={'/Players'} className='navLink'>

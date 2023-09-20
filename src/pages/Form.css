@@ -14,7 +14,7 @@
     height: 70px;
     width: 538px;
     border: 1px solid whitesmoke;
-    background: darkred;
+    background: whitesmoke;
     padding: 20px;
     border-radius: 10px;
     color: white;
@@ -23,12 +23,12 @@
 }
 textarea#company {
     margin: 12px 0px;
-    background: darkred;
+    background: whitesmoke;
     padding: 35px;
     border-radius: 10px;
     border: 1px solid white;
     font-size: 16px;
-    color: white !important;
+    color: black;
     /* max-width: 545px; */
     width: 100%;
 }

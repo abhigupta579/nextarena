@@ -1,5 +1,5 @@
 .section.auth {
-    background: lightpink;
+    background: lightskyblue;
     padding: 48px 0px;
     /* opacity: 80%; */
 }
@@ -12,7 +12,15 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
-
+.colAuth a {
+    text-decoration: none;
+    margin: 0px 20px;
+    display: inline-block;
+    font-weight: 500;
+}
+.auth.row.justify-content-center {
+    margin-top: -80px;
+}
 .colAuth label {
     margin: 12px;
     font-weight: 700;
@@ -29,6 +37,7 @@
     color: white;
     background: blue;
     padding: 4px 20px;
+    margin-top: 18px;
     border-radius: 12px;
     border: navajowhite;
     font-size: 20px;
